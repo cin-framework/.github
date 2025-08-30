@@ -8,36 +8,48 @@
 <div align="center">
 
 [![Official Website](https://img.shields.io/badge/Official_Website-www.cin--framework.com-dc2626?style=for-the-badge)](https://www.cin-framework.com)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
-[![Security](https://img.shields.io/badge/Security-Aggressive-orange?style=for-the-badge&logo=security)](SECURITY.md)
 
 </div>
 
 ---
 
-## 🛡️ Security Overview
-
-The **CIN Framework** is built on the foundation of **aggressive security** - one of our core principles alongside local self-sufficiency. We implement multiple layers of security validation and maintain the highest security standards across all components.
-
-### 🎯 Security Philosophy
-
-- **Aggressive Security**: Proactive, multi-layered security measures
-- **Zero Trust Architecture**: Every component is validated and secured
-- **Local Self-Sufficiency**: No external dependencies reduce attack surface
-- **Continuous Monitoring**: Real-time security assessment and response
-
----
 
 ## 🔒 Supported Versions
 
 We provide security updates for the following versions:
 
-| Component | Version | Security Status | Support Level |
-|-----------|---------|-----------------|---------------|
-| CIN Framework Core | Latest | ✅ **Fully Secure** | Active Security Updates |
-| CIN CLI | v2.2.0+ | ✅ **Fully Secure** | Active Security Updates |
-| CIN Library | Latest | ✅ **Fully Secure** | Active Security Updates |
-| Legacy Versions | < Latest | ❌ **Deprecated** | No Security Support |
+### 🛡️ cin-cli
+
+<div align="center">
+
+| Version        | Supported
+| -|-
+| External Panel | ✅ **Fully Secure** 
+| job frame      | ✅ **Automatic update**
+
+</div>
+
+### 🛡️ cin-framework
+
+<div align="center">
+
+| Version | Supported
+| -|-
+| v2.0.0  | ✅ **Fully Secure**
+| v1.x.x  | ❌ **Deprecated**
+
+</div>
+
+### 🛡️ cin-library
+
+<div align="center">
+
+| Version | Supported               
+| -|-
+| Latest  | ✅ **Fully Secure**
+| Oldest  | ❌ **Deprecated** 
+
+</div>
 
 ### ⚠️ Security Notice
 
@@ -63,7 +75,6 @@ For **critical security vulnerabilities** requiring immediate attention:
 
 For general security concerns and vulnerability reports:
 
-- **Security Team**: [admin@cin-framework.com](mailto:admin@cin-framework.com)
 - **Development Team**: [dev@cin-framework.com](mailto:dev@cin-framework.com)
 - **Response Time**: Within 48 hours
 
@@ -87,7 +98,7 @@ Subject: [SECURITY] Vulnerability Report - [Component Name]
 
 **Vulnerability Type**: [e.g., SQL Injection, XSS, etc.]
 **Severity**: [Critical/High/Medium/Low]
-**Affected Component**: [CIN Framework Core/CLI/Library]
+**Affected Component**: [CIN Framework/CLI/Library]
 **Affected Version**: [Version number]
 
 **Description**:
@@ -145,10 +156,22 @@ Subject: [SECURITY] Vulnerability Report - [Component Name]
 ### Platform-Specific Security
 
 #### Windows Security (Full Support)
-- **Windows Security Integration**: Native Windows security features
-- **File System Permissions**: Enhanced Windows file permissions
-- **Registry Security**: Secure Windows registry operations
-- **Process Security**: Secure process execution and monitoring
+- **Windows Security Integration**: Native Windows security features  
+- **File System Permissions**: Enhanced Windows file permissions  
+- **Registry Security**: Secure Windows registry operations  
+- **Process Security**: Secure process execution and monitoring  
+
+#### macOS Intel Security (Full Support)
+- **Keychain Integration**: Secure storage and retrieval of credentials using macOS Keychain  
+- **File System Permissions**: Advanced macOS POSIX & ACL-based file permissions  
+- **System Integrity Protection (SIP)**: Respect and integrate with SIP for hardened security  
+- **Process Security**: Sandboxing and secure process management under macOS  
+
+#### Linux Security (Full Support)
+- **File System Permissions**: Strict POSIX file permissions and extended attributes (xattr)  
+- **SELinux / AppArmor**: Integration with Linux Mandatory Access Control frameworks  
+- **Process Security**: Namespaces, cgroups, and seccomp-bpf for controlled execution  
+- **Credential Security**: Integration with PAM and encrypted credential storage  
 
 #### Cross-Platform Security
 - **Universal Validation**: Platform-agnostic security validation
@@ -235,39 +258,24 @@ We value and recognize security researchers who help improve CIN Framework secur
 
 ---
 
-## 🌐 Official Resources
-
-- **Official Website**: [www.cin-framework.com](https://www.cin-framework.com)
-- **Security Documentation**: [www.cin-framework.com/security](https://www.cin-framework.com/security)
-- **CIN CLI Repository**: [github.com/cin-framework/cin-cli](https://github.com/cin-framework/cin-cli)
-- **Security Updates**: Available through CIN CLI
-- **Community Guidelines**: [www.cin-framework.com](https://www.cin-framework.com)
-
----
-
 ## 📧 Contact Information
 
 ### Security Team
-- **Security Administrator**: [admin@cin-framework.com](mailto:admin@cin-framework.com)
+- **Security Administrator Emergency **: [admin@cin-framework.com](mailto:admin@cin-framework.com)
 - **Security Development**: [dev@cin-framework.com](mailto:dev@cin-framework.com)
-- **Emergency Contact**: [admin@cin-framework.com](mailto:admin@cin-framework.com)
 
 ### General Contact
 - **Technical Support**: [support@cin-framework.com](mailto:support@cin-framework.com)
 - **General Contact**: [contact@cin-framework.com](mailto:contact@cin-framework.com)
 - **Creator**: [mawi@cin-framework.com](mailto:mawi@cin-framework.com)
 
-### Community Support
-- **Security FAQ**: [www.cin-framework.com/p/0.html?page=security-faq](https://www.cin-framework.com/p/0.html?page=security-faq)
-- **Security Guidelines**: [www.cin-framework.com/p/0.html?page=security-guidelines](https://www.cin-framework.com/p/0.html?page=security-guidelines)
-
 ---
 
 ## 📜 Legal Information
 
-**Copyright © 2025-08-21 CIN FRAMEWORK. All Rights Reserved.**
+**Copyright © CIN FRAMEWORK. All Rights Reserved.**
 
-Developed by Ayoub Alarjani (Mawi Man) | Official Website: [www.cin-framework.com](https://www.cin-framework.com)
+**Developed by Ayoub Alarjani (Mawi Man) | Official Website Mawi Man:** [mawiman.com](https://www.mawiman.com)
 
 ### Security Policy Terms
 This security policy is part of the CIN Framework Proprietary License Agreement. All security procedures and protocols are proprietary and confidential.
@@ -282,7 +290,7 @@ This security policy is part of the CIN Framework Proprietary License Agreement.
 - **Limitation of Liability**: Limited liability for security incidents
 - **User Responsibility**: Users responsible for secure implementation
 
-This security policy is effective as of 2025-08-21 and is subject to updates.
+This security policy is effective as of 2025 and is subject to updates.
 
 ---
 
@@ -294,13 +302,6 @@ This security policy is effective as of 2025-08-21 and is subject to updates.
 - **Local Self-Sufficiency**: Reduced attack surface through independence
 - **Continuous Improvement**: Ongoing security enhancement and monitoring
 - **Community Collaboration**: Working with security researchers and users
-
----
-
-<div align="center">
-  <strong>CIN Framework - Aggressive Security</strong><br>
-  <em>Building the foundation for secure Web 4 applications.</em>
-</div>
 
 ---
 

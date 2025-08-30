@@ -8,8 +8,6 @@
 <div align="center">
 
 [![Official Website](https://img.shields.io/badge/Official_Website-www.cin--framework.com-dc2626?style=for-the-badge)](https://www.cin-framework.com)
-[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
-[![CIN CLI](https://img.shields.io/badge/CIN_CLI-Download-blue?style=for-the-badge)](https://github.com/cin-framework/cin-cli)
 
 </div>
 
@@ -23,7 +21,7 @@ Thank you for your interest in contributing to CIN Framework! We welcome contrib
 
 ## Code of Conduct
 
-This project adheres to our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [admin@cin-framework.com](mailto:admin@cin-framework.com).
+This project adheres to our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [contact@cin-framework.com](mailto:contact@cin-framework.com).
 
 ---
 
@@ -124,7 +122,7 @@ This project adheres to our [Code of Conduct](CODE_OF_CONDUCT.md). By participat
 
 ### Prerequisites
 
-- PHP 8.0 or higher
+- PHP 7.x or 8.x or higher
 - Web server (Apache/Nginx)
 - Modern web browser
 - Text editor or IDE with PHP support
@@ -171,13 +169,6 @@ If you have questions about contributing:
 
 ---
 
-## Official Resources
-
-- **Official Website**: [www.cin-framework.com](https://www.cin-framework.com)
-- **CIN CLI**: [github.com/cin-framework/cin-cli](https://github.com/cin-framework/cin-cli)
-- **Documentation**: [www.cin-framework.com](https://www.cin-framework.com)
-- **Community Guidelines**: [www.cin-framework.com](https://www.cin-framework.com)
-
 ## Contact Information
 
 - **Support**: [support@cin-framework.com](mailto:support@cin-framework.com)
@@ -188,15 +179,14 @@ If you have questions about contributing:
 
 ## Legal Information
 
-**Copyright © 2025-08-21 CIN FRAMEWORK. All Rights Reserved.**
+**Copyright © CIN FRAMEWORK. All Rights Reserved.**
 
-Developed by Ayoub Alarjani (Mawi Man) | Official Website: [www.cin-framework.com](https://www.cin-framework.com)
+**Developed by Ayoub Alarjani (Mawi Man) | Official Website Mawi Man:** [mawiman.com](https://www.mawiman.com)
 
 By contributing to CIN Framework, you agree that your contributions will be licensed under the same proprietary license as the project. All contributions become part of the CIN Framework ecosystem and are subject to our licensing terms.
 
-This contributing guide is governed by the laws of Morocco and is effective as of 2025-08-21.
+This contributing guide is governed by the laws of Morocco and is effective as of 2025.
 
 ---
 
-**CIN Framework - Code In Nothing**  
-*Where the system is everything, and the code is nothing.*
+**Official Slogan**: CIN FRAMEWORK – WEB 4 – POWERED BY LOCAL SELF-SUFFICIENCY AND AGGRESSIVE SECURITY
