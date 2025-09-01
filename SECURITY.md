@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/img/CIN.svg" alt="CIN Framework Logo" width="200" height="200">
+  <img src="https://www.cin-framework.com/assets/img/cin/CIN.svg" alt="CIN Framework Logo" width="200" height="200">
 </div>
 
 <h1 align="center">CIN FRAMEWORK</h1>

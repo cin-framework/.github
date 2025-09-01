@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/img/CIN.svg" alt="CIN Framework Logo" width="200" height="200">
+  <img src="https://www.cin-framework.com/assets/img/cin/CIN.svg" alt="CIN Framework Logo" width="200" height="200">
 </div>
 
 <h1 align="center">CIN FRAMEWORK</h1>
@@ -29,7 +29,7 @@ This project adheres to our [Code of Conduct](CODE_OF_CONDUCT.md). By participat
 
 ### Reporting Issues
 
-- Use our [Reporting Guidelines](https://www.cin-framework.com/p/0.html?page=reporting_guidelines) for detailed instructions
+- Use our [Reporting Guidelines](https://www.cin-framework.com/reporting_guidelines) for detailed instructions
 - Search existing issues before creating a new one
 - Provide clear, detailed descriptions with steps to reproduce
 - Include relevant system information and error messages
@@ -162,7 +162,7 @@ Contributors will be recognized in:
 
 If you have questions about contributing:
 
-- Check our [FAQ](https://www.cin-framework.com/p/0.html?page=faq)
+- Check our [FAQ](https://www.cin-framework.com/faq)
 - Search existing documentation and closed issues
 - Visit our [official website](https://www.cin-framework.com) for comprehensive guides
 - Contact us at [support@cin-framework.com](mailto:support@cin-framework.com)
